@@ -28,12 +28,11 @@ public class rombTest {
         double actual3 = this.romb.calcArea(90.0);
         double expected3 = 1.0;
         Assert.assertEquals(actual3, expected3, 0.1, "Hiba! A megadott érték nem egyezik a várt értékkel!");
-    }
+    } // ez nem fog igy mukodni de mindegy
 
     public void testCalcRangeFailForSure() {
         double actual4 = this.romb.calcRange(55.0);
         double expected4 = 1.0;
         Assert.assertEquals(actual4, expected4, 0.1, "Hiba! A megadott érték nem egyezik a várt értékkel!");
-    }
-
+    } // ez se
 }
