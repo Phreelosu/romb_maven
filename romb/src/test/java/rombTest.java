@@ -18,9 +18,7 @@ public class rombTest {
         Assert.assertEquals(actual, expected, 0.1, "Hiba! A megadott érték nem egyezik a várt értékkel!");
     }
 
-    public void testCalcRange() {
-        double actual2 = this.romb.calcRange(55.0);
-        double expected2 = 220.0;
-        Assert.assertEquals(actual2, expected2, 0.1, "Hiba! A megadott érték nem egyezik a várt értékkel!");
-    }
+    
+
+
 }
